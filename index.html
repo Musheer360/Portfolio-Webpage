@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Musheer Alam</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <section id="header" class="header">
+      <nav>
+        <h2 class="logo">Meet<span>Me</span></h2>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#" class="btn">Newsletter</a>
+      </nav>
+    </section>
+
+    <!-- Home Section -->
+
+    <section class="home">
+      <h4>Hi, I am</h4>
+      <h1>Musheer <span>Alam</span></h1>
+      <h3>a <span class="auto-type"></span></h3>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: [
+            "Web Developer^700",
+            "Graphic Designer^700",
+            "Hobbyist Photographer^700",
+            "Tech Enthusiast^700",
+          ],
+          typeSpeed: 80,
+          backSpeed: 50,
+          loop: true,
+        });
+      </script>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+      <div class="main">
+        <img src="mine.jpg" alt="Musheer" />
+
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Web Designer <span>& Developer</span></h5>
+          <p>
+            I am a highly motivated and passionate front-end web developer with
+            expertise in HTML, CSS, and JavaScript. My strong desire to create
+            visually appealing and functional websites drives me to continuously
+            enhance my skills and stay current with the latest technologies. My
+            goal is to create visually stunning and user-friendly web
+            experiences for my clients.
+          </p>
+          <button type="button">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills" class="skills">
+      <div class="title">
+        <h2>My Skill Set</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fa-brands fa-html5"></i>
+          <h5>HTML</h5>
+          <div class="para">
+            <p>
+              I have advanced HTML skills and a deep understanding of HTML5,
+              semantic elements, and responsive design. I create visually
+              appealing websites with clean, organized, and standards-compliant
+              HTML code for desktop and mobile devices.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h5>CSS</h5>
+          <div class="para">
+            <p>
+              I have a solid understanding of CSS3 and use it to create dynamic
+              and visually appealing websites. My expertise includes media
+              queries, animations, and responsive design. I aim to enhance the
+              look and functionality the of websites I make.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-js"></i>
+          <h5>JavaScript</h5>
+          <div class="para">
+            <p>
+              I have a strong understanding of JavaScript and its core concepts,
+              including variables, functions, and event handling. I use
+              JavaScript to add dynamic and interactive elements to websites,
+              such as form validation, dropdown menus, and pop-ups.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+      <p>Let Me Get You A Beautiful Website</p>
+
+      <div class="hireme">
+        <button
+          type="button"
+          onclick="window.location.href='mailto:musheeralam360@gmail.com?subject=Hire Me Request&body=Hi, I am interested in hiring your services. Please let me know if you are available.'"
+        >
+          Hire Me
+        </button>
+      </div>
+
+      <a href="#top"><i class="fa fa-chevron-up"></i><br />Back to Top</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <p class="name">Musheer Alam</p>
+      <p class="follows">Follow me on my socials to stay connected with me</p>
+
+      <div class="social">
+        <button type="button"><i class="fa-brands fa-facebook-f"></i></button>
+        <button type="button"><i class="fa-brands fa-instagram"></i></button>
+        <button type="button"><i class="fa-brands fa-twitter"></i></button>
+        <button type="button"><i class="fa-brands fa-github"></i></button>
+        <button type="button"><i class="fa-brands fa-linkedin-in"></i></button>
+      </div>
+
+      <p class="copyright">&copy; Musheer Alam - All rights reserved (2023)</p>
+    </section>
+  </body>
+</html>
